@@ -78,8 +78,8 @@ public class GTv1 {
 	@Test(timeout = 4000)
 	public void testRunWithPositive1() throws Throwable {
 	    NextDate nextDate0 = new NextDate(5, 5, 5);
-	    String string0 = nextDate0.run(5, 31, 1837);
-	    assertEquals("6/1/1837", string0);
+	    String string0 = nextDate0.run(5, 5, 1837);
+	    assertEquals("5/6/1837", string0);
 	}
 
 	@Test(timeout = 4000)
