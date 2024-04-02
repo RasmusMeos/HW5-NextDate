@@ -95,9 +95,9 @@ public class NextDate {
 						tomorrowDay = 1;
 						tomorrowMonth = 3;
 					}
-					// To seed "Fault 4", comment out the lines 99-100
-					else
-						return "Invalid Input Date";
+					// To seed "Fault 4", comment out the lines 99-100 - done
+				//	else
+				//		return "Invalid Input Date";
 				}
 				//
 				else if(day > 29) //invalid input as February will never have more than 29 days
